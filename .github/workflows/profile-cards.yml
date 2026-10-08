@@ -1,0 +1,33 @@
+name: Profile cards
+
+# Redraws the language, stats and contribution cards the README shows.
+# Only public repositories are counted.
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@v0.9.3
+        env:
+          # A personal token reads the full contribution history; the built-in token is a fallback.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 0
+          THEME: github_dark
+          NAME: L4ST
+          AUTO_PUSH: true
