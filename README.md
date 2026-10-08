@@ -43,4 +43,4 @@ Next to land in a public repo
 
 ## Contact
 
-[![Email](https://img.shields.io/badge/chefiu07%40gmail.com-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:chefiu07@gmail.com)
+[![chefiu07@gmail.com](https://img.shields.io/badge/chefiu07%40gmail.com-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:chefiu07@gmail.com)
