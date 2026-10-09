@@ -34,12 +34,12 @@ Next to land in a public repo
 
 ## Activity
 
-<!-- Add once the SUMMARY_GITHUB_TOKEN secret is set, since the built-in token cannot read contribution history:
-![Profile details and contributions over the past year](profile-summary-card-output/github_dark/0-profile-details.svg)
-<img src="profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" width="49%" />
--->
+![Contributions over the past year](profile-summary-card-output/github_dark/0-profile-details.svg)
 
-<img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Commits per language across public repos" width="49%" />
+<p>
+  <img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Commits per language across public repos" width="49%" />
+  <img src="profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" width="49%" />
+</p>
 
 ## Contact
 
